@@ -145,6 +145,7 @@ $tpl->setVariable( 'link_parameters', array() );
 $tpl->setVariable( 'classification', $className );
 $tpl->setVariable( 'object_parameters', array( 'size' => $size, 'align' => $align, 'show_path' => true ) );
 if ( isset( $embedNode ) ) $tpl->setVariable( 'node', $embedNode );
+$tpl->setVariable( 'context', 'ezoe-embed' );
 
 //if ( $style !== '' )
 //    $style = ' style="' . $style . '"';

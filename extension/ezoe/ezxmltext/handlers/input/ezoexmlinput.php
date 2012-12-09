@@ -1288,6 +1288,7 @@ class eZOEXMLInput extends eZXMLInputHandler
                             'classification' => $className,
                             'object_parameters' => $objectParam,
                             'node' => $node,
+                            'context' => 'ezoe-edit'
                         ));
                     }
                     else
@@ -1298,6 +1299,7 @@ class eZOEXMLInput extends eZXMLInputHandler
                             'link_parameters' => array(),
                             'classification' => $className,
                             'object_parameters' => $objectParam,
+                            'context' => 'ezoe-edit'
                         ));
                     }
 
